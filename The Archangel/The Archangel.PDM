@@ -1,0 +1,185 @@
+[Root]
+Most Recent Package=Setup
+
+
+[Package|The Archangel - Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας
+
+[Package|The Archangel - Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|The Archangel - Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|The Archangel - Setup|Files Found]
+
+[Package|The Archangel - Setup|Files Released]
+myDLL.DLL=
+
+[Package|The Archangel - Setup|Missing Dependency Information]
+
+[Package|The Archangel - Setup|Out-of-Date Dependency Information]
+
+[Package|The Archangel - Setup|Files Added]
+
+[Package|The Archangel - Setup|Files Removed]
+
+[Package|The Archangel - Setup|Files In Project]
+C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\The Archangel.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|The Archangel - Setup|Configure Registry Files]
+Applicable=No
+
+[Package|The Archangel - Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|The Archangel - Setup|Install Locations]
+C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\The Archangel.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|The Archangel - Setup|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\The Archangel.exe=No
+
+[Package|The Archangel - Setup|Distribution]
+Type=single
+Size=
+Title=The Archangel
+
+[Package|The Archangel - Setup|IconGroups]
+Group0=The Archangel
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|The Archangel - Setup|The Archangel]
+Icon1="The Archangel.exe"
+Title1=The Archangel
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|The Archangel - Setup|Package]
+PackageFolder=C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας
+ProjectFolder=C:\Documents and Settings\Crash Wizard\Τα έγγραφά μου\Programming\visual basic\My Creations\The Archangel
+ServerSideCab=
+File1=C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\setup.exe
+File2=C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\Setup.Lst
+File3=C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\The Archangel.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\the archangel
+
+[Package|Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup|Files Found]
+
+[Package|Setup|Files Released]
+myDLL.DLL=
+
+[Package|Setup|Missing Dependency Information]
+
+[Package|Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Setup|Files Added]
+
+[Package|Setup|Files Removed]
+
+[Package|Setup|Files In Project]
+C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\The Archangel.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup|Install Locations]
+C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\The Archangel.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Setup|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\The Archangel.exe=No
+
+[Package|Setup|Distribution]
+Type=single
+Size=
+Title=The Archangel
+
+[Package|Setup|IconGroups]
+Group0=The Archangel
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Setup|The Archangel]
+Icon1="The Archangel.exe"
+Title1=The Archangel
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Setup|Package]
+PackageFolder=C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\the archangel
+ProjectFolder=C:\Documents and Settings\Crash Wizard\Τα έγγραφά μου\Programming\visual basic\My Creations\The Archangel
+ServerSideCab=
+File1=C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\the archangel\setup.exe
+File2=C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\the archangel\Setup.Lst
+File3=C:\Documents and Settings\Crash Wizard\Επιφάνεια εργασίας\the archangel\The Archangel.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
